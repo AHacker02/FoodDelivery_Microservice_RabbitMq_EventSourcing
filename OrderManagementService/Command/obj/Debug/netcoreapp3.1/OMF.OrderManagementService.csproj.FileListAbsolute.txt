@@ -1,0 +1,17 @@
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.OrderManagementService\bin\Debug\netcoreapp3.1\Autofac.dll
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.OrderManagementService\bin\Debug\netcoreapp3.1\DnsClient.dll
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.OrderManagementService\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.OrderManagementService\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.OrderManagementService\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.OrderManagementService\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.OrderManagementService\bin\Debug\netcoreapp3.1\SharpCompress.dll
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.OrderManagementService\bin\Debug\netcoreapp3.1\BaseService.dll
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.OrderManagementService\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.OrderManagementService\bin\Debug\netcoreapp3.1\OMF.Common.dll
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.OrderManagementService\bin\Debug\netcoreapp3.1\ServiceBus.dll
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.OrderManagementService\obj\Debug\netcoreapp3.1\OMF.OrderManagementService.csprojAssemblyReference.cache
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.OrderManagementService\obj\Debug\netcoreapp3.1\staticwebassets\OMF.OrderManagementService.StaticWebAssets.Manifest.cache
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.OrderManagementService\obj\Debug\netcoreapp3.1\staticwebassets\OMF.OrderManagementService.StaticWebAssets.xml
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.OrderManagementService\obj\Debug\netcoreapp3.1\OMF.OrderManagementService.AssemblyInfoInputs.cache
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.OrderManagementService\obj\Debug\netcoreapp3.1\OMF.OrderManagementService.AssemblyInfo.cs
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.OrderManagementService\obj\Debug\netcoreapp3.1\OMF.OrderManagementService.RazorTargetAssemblyInfo.cache

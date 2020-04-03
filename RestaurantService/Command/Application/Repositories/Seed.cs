@@ -1,0 +1,31 @@
+﻿using Newtonsoft.Json;
+using OMF.Common.Models;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+
+namespace OMF.RestaurantService.Command.Application.Repositories
+{
+    public class Seed
+    {
+        private readonly IRestaurantRepository _restaurantRepository;
+
+        public Seed(IRestaurantRepository restaurantRepository)
+        {
+            _restaurantRepository = restaurantRepository;
+        }
+
+        public void SeedRestaurants()
+        {
+            var restaurants = _restaurantRepository.GetAllRestaurantsAsync().GetAwaiter().GetResult();
+            if (!restaurants.Any())
+            {
+                string filePath = AppDomain.CurrentDomain.BaseDirectory + "Zomato.json";
+                string mockData = File.ReadAllText(filePath);
+                var data = JsonConvert.DeserializeObject<IEnumerable<Restaurant>>(mockData);
+                _restaurantRepository.AddRestaurantsAsync(data).GetAwaiter();
+            }
+        }
+    }
+}

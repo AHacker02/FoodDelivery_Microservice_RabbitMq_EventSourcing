@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Arghya Ghosh\\source\\repos\\AHacker02\\OrderMyFood\\ReviewManagementService\\Query\\OMF.ReviewManagementService.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Arghya Ghosh\\source\\repos\\AHacker02\\OrderMyFood\\ReviewManagementService\\Query\\OMF.ReviewManagementService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Arghya Ghosh\\source\\repos\\AHacker02\\OrderMyFood\\ReviewManagementService\\Query\\OMF.ReviewManagementService.csproj",
+        "projectName": "OMF.ReviewManagementService",
+        "projectPath": "C:\\Users\\Arghya Ghosh\\source\\repos\\AHacker02\\OrderMyFood\\ReviewManagementService\\Query\\OMF.ReviewManagementService.csproj",
+        "packagesPath": "C:\\Users\\Arghya Ghosh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Arghya Ghosh\\source\\repos\\AHacker02\\OrderMyFood\\ReviewManagementService\\Query\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Arghya Ghosh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Arghya Ghosh\\source\\repos\\AHacker02\\OrderMyFood\\dotnet_libraries\\BaseService\\BaseService.csproj": {
+                "projectPath": "C:\\Users\\Arghya Ghosh\\source\\repos\\AHacker02\\OrderMyFood\\dotnet_libraries\\BaseService\\BaseService.csproj"
+              },
+              "C:\\Users\\Arghya Ghosh\\source\\repos\\AHacker02\\OrderMyFood\\dotnet_libraries\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Arghya Ghosh\\source\\repos\\AHacker02\\OrderMyFood\\dotnet_libraries\\DataAccess\\DataAccess.csproj"
+              },
+              "C:\\Users\\Arghya Ghosh\\source\\repos\\AHacker02\\OrderMyFood\\dotnet_libraries\\ServiceBus\\ServiceBus.csproj": {
+                "projectPath": "C:\\Users\\Arghya Ghosh\\source\\repos\\AHacker02\\OrderMyFood\\dotnet_libraries\\ServiceBus\\ServiceBus.csproj"
+              },
+              "C:\\Users\\Arghya Ghosh\\source\\repos\\AHacker02\\OrderMyFood\\ReviewManagementService\\OMF.Common\\OMF.Common.csproj": {
+                "projectPath": "C:\\Users\\Arghya Ghosh\\source\\repos\\AHacker02\\OrderMyFood\\ReviewManagementService\\OMF.Common\\OMF.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[5.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

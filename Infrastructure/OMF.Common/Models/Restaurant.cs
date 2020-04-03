@@ -1,0 +1,47 @@
+﻿using System;
+using System.Collections.Generic;
+using Newtonsoft.Json;
+
+namespace OMF.Common.Models
+{
+    public class Restaurant
+    {
+        public Restaurant()
+        {
+            Id=Guid.NewGuid();
+        }
+        public Guid Id { get; set; }
+        public string Name { get; set; }
+        public string Address { get; set; }
+        public string Rating { get; set; }
+        public decimal Rating_Calc
+        {
+            get
+            {
+                if (string.IsNullOrEmpty(Rating)||Rating == "NEW")
+                {
+                    return 0;
+                }
+
+                return Convert.ToDecimal(Rating.Replace("/5",""));
+            }
+
+        }
+        public string Location { get; set; }
+        public string ListedCity { get; set; }
+        public decimal ApproxCost { get; set; }
+        public List<Menu> Menu { get; set; }
+    }
+
+    public class Menu
+    {
+        public Menu()
+        {
+            Id=Guid.NewGuid();
+        }
+
+        public Guid Id { get; set; }
+        public string Item { get; set; }
+        public decimal Price { get; set; }
+    }
+}

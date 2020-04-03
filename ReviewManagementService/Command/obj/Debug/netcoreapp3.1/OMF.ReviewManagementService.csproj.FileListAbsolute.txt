@@ -1,0 +1,17 @@
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.ReviewManagementService\bin\Debug\netcoreapp3.1\Autofac.dll
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.ReviewManagementService\bin\Debug\netcoreapp3.1\DnsClient.dll
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.ReviewManagementService\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.ReviewManagementService\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.ReviewManagementService\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.ReviewManagementService\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.ReviewManagementService\bin\Debug\netcoreapp3.1\SharpCompress.dll
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.ReviewManagementService\bin\Debug\netcoreapp3.1\BaseService.dll
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.ReviewManagementService\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.ReviewManagementService\bin\Debug\netcoreapp3.1\OMF.Common.dll
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.ReviewManagementService\bin\Debug\netcoreapp3.1\ServiceBus.dll
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.ReviewManagementService\obj\Debug\netcoreapp3.1\OMF.ReviewManagementService.csprojAssemblyReference.cache
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.ReviewManagementService\obj\Debug\netcoreapp3.1\staticwebassets\OMF.ReviewManagementService.StaticWebAssets.Manifest.cache
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.ReviewManagementService\obj\Debug\netcoreapp3.1\staticwebassets\OMF.ReviewManagementService.StaticWebAssets.xml
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.ReviewManagementService\obj\Debug\netcoreapp3.1\OMF.ReviewManagementService.AssemblyInfoInputs.cache
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.ReviewManagementService\obj\Debug\netcoreapp3.1\OMF.ReviewManagementService.AssemblyInfo.cs
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.ReviewManagementService\obj\Debug\netcoreapp3.1\OMF.ReviewManagementService.RazorTargetAssemblyInfo.cache

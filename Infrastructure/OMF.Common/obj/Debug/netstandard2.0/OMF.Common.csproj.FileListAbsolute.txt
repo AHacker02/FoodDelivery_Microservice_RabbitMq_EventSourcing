@@ -1,0 +1,9 @@
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.Common\bin\Debug\netstandard2.0\OMF.Common.deps.json
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.Common\bin\Debug\netstandard2.0\OMF.Common.dll
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.Common\obj\Debug\netstandard2.0\OMF.Common.csprojAssemblyReference.cache
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.Common\obj\Debug\netstandard2.0\OMF.Common.AssemblyInfoInputs.cache
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.Common\obj\Debug\netstandard2.0\OMF.Common.AssemblyInfo.cs
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.Common\bin\Debug\netstandard2.0\OMF.Common.pdb
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.Common\obj\Debug\netstandard2.0\OMF.Common.csproj.CoreCompileInputs.cache
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.Common\obj\Debug\netstandard2.0\OMF.Common.dll
+C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.Common\obj\Debug\netstandard2.0\OMF.Common.pdb
