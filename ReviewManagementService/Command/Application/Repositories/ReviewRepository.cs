@@ -13,9 +13,9 @@ namespace OMF.ReviewManagementService.Command.Application.Repositories
     {
         private readonly INoSqlDataAccess _database;
 
-        public ReviewRepository(IMongoClient client)
+        public ReviewRepository(INoSqlDataAccess database)
         {
-            _database = new MongoDbDataAccess(new MongoConnectionFactory("OMF-Reviews",client), "Reviews");
+            _database = database;
         }
 
         public async Task<IEnumerable<Review>> GetRestaurantReviews(Guid restaurantId)

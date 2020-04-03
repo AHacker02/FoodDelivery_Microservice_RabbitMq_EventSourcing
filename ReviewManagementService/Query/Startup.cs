@@ -1,44 +1,44 @@
+using Autofac;
+using BaseService;
+using DataAccess.MongoDb;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
+using OMF.ReviewManagementService.Query.Application;
 
-namespace OMF.ReviewManagementService
+namespace OMF.ReviewManagementService.Query
 {
-    public class Startup
+    public class Startup : AppStartupBase
     {
-        public Startup(IConfiguration configuration)
+        public Startup(IConfiguration configuration, IWebHostEnvironment env) : base(env, configuration)
         {
-            Configuration = configuration;
+
         }
 
-        public IConfiguration Configuration { get; }
-
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            base.ConfigureApplicationServices(services, new OpenApiInfo
+            {
+                Version = "v1",
+                Title = "Review API",
+                Description = "Review management service API"
+            });
+
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        public void ConfigureContainer(ContainerBuilder builder)
+        {
+            builder.RegisterModule(new MongoDbModule(Configuration));
+            builder.RegisterModule(new ReviewModule());
+        }
+
+
+
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
-
-            app.UseHttpsRedirection();
-
-            app.UseRouting();
-
-            app.UseAuthorization();
-
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
-            });
+            base.ConfigureApplication(app, env);
         }
     }
 }
