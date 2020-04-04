@@ -14,19 +14,6 @@ namespace OMF.Common.Models
         public string Name { get; set; }
         public string Address { get; set; }
         public string Rating { get; set; }
-        public decimal Rating_Calc
-        {
-            get
-            {
-                if (string.IsNullOrEmpty(Rating)||Rating == "NEW")
-                {
-                    return 0;
-                }
-
-                return Convert.ToDecimal(Rating.Replace("/5",""));
-            }
-
-        }
         public string Location { get; set; }
         public string ListedCity { get; set; }
         public decimal ApproxCost { get; set; }
@@ -43,5 +30,6 @@ namespace OMF.Common.Models
         public Guid Id { get; set; }
         public string Item { get; set; }
         public decimal Price { get; set; }
+        public int Quantity { get; set; }
     }
 }

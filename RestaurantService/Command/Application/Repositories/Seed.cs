@@ -23,7 +23,12 @@ namespace OMF.RestaurantService.Command.Application.Repositories
             {
                 string filePath = AppDomain.CurrentDomain.BaseDirectory + "Zomato.json";
                 string mockData = File.ReadAllText(filePath);
-                var data = JsonConvert.DeserializeObject<IEnumerable<Restaurant>>(mockData);
+                var data = (JsonConvert.DeserializeObject<IEnumerable<Restaurant>>(mockData)).ToList();
+                data.ForEach(x =>
+                {
+                    x.Menu.ForEach(m=>m.Quantity=150);
+                    x.Rating=(string.IsNullOrEmpty(x.Rating) || x.Rating == "NEW")? "0": x.Rating.Replace("/5", "");
+                });
                 _restaurantRepository.AddRestaurantsAsync(data).GetAwaiter();
             }
         }

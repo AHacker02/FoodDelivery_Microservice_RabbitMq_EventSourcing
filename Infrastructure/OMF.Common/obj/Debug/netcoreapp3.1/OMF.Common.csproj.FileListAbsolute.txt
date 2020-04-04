@@ -3,15 +3,3 @@ C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.Common\bin\Debug\ne
 C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.Common\obj\Debug\netcoreapp3.1\OMF.Common.csprojAssemblyReference.cache
 C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.Common\obj\Debug\netcoreapp3.1\OMF.Common.AssemblyInfoInputs.cache
 C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\OMF.Common\obj\Debug\netcoreapp3.1\OMF.Common.AssemblyInfo.cs
-C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\Infrastructure\OMF.Common\bin\Debug\netcoreapp3.1\OMF.Common.deps.json
-C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\Infrastructure\OMF.Common\bin\Debug\netcoreapp3.1\OMF.Common.dll
-C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\Infrastructure\OMF.Common\bin\Debug\netcoreapp3.1\OMF.Common.pdb
-C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\Infrastructure\OMF.Common\bin\Debug\netcoreapp3.1\ServiceBus.dll
-C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\Infrastructure\OMF.Common\bin\Debug\netcoreapp3.1\ServiceBus.pdb
-C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\Infrastructure\OMF.Common\obj\Debug\netcoreapp3.1\OMF.Common.csprojAssemblyReference.cache
-C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\Infrastructure\OMF.Common\obj\Debug\netcoreapp3.1\OMF.Common.csproj.CoreCompileInputs.cache
-C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\Infrastructure\OMF.Common\obj\Debug\netcoreapp3.1\OMF.Common.AssemblyInfoInputs.cache
-C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\Infrastructure\OMF.Common\obj\Debug\netcoreapp3.1\OMF.Common.AssemblyInfo.cs
-C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\Infrastructure\OMF.Common\obj\Debug\netcoreapp3.1\OMF.Common.csproj.CopyComplete
-C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\Infrastructure\OMF.Common\obj\Debug\netcoreapp3.1\OMF.Common.dll
-C:\Users\Arghya Ghosh\source\repos\AHacker02\OrderMyFood\Infrastructure\OMF.Common\obj\Debug\netcoreapp3.1\OMF.Common.pdb
