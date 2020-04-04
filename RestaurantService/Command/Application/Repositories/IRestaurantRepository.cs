@@ -8,5 +8,6 @@ namespace OMF.RestaurantService.Command.Application.Repositories
     {
         Task AddRestaurantsAsync(IEnumerable<Restaurant> restaurants);
         Task<IEnumerable<Restaurant>> GetAllRestaurantsAsync();
+        Task UpdateStock(List<OrderItem> eventOrderItems);
     }
 }

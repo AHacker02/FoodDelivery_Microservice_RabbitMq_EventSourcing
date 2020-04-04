@@ -479,6 +479,10 @@
             "Autofac": {
               "target": "Package",
               "version": "[5.1.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
             }
           },
           "imports": [
